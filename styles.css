@@ -1,0 +1,58 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+     --primary-color: #1f2937;
+     --secondary-color: #3882f6;
+     --font-color: #ebebeb;
+}
+
+.hero{
+    background-color: var(--primary-color);
+    color: var(--font-color);
+    padding-left: 150px;
+    padding-right: 150px;
+    height: 490px;
+
+}
+
+nav{
+    display: flex;
+    padding-top: 50px;
+}
+ ul{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    margin-left: auto;
+ }
+
+ .title{
+    font-size: 48px;
+    margin-bottom: 10px;
+ }
+
+ p{
+    font-size: 12px;
+    line-height: 1.5;
+    height: 30px;
+ }
+
+ .bio{
+    margin-top: 115px;
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+ }
+
+ .heroImg{
+    display: flex;
+    justify-content: flex-end;
+    width: auto;
+    height: 300px;
+    position: relative;
+    top: -165px;
+ }
